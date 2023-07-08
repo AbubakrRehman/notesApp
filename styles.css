@@ -9,3 +9,35 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.notes__container{
+    display: flex;
+    border:2px solid red;
+}
+.note__item{
+    width:300px;
+    height: 300px;
+
+    border:2px solid black;
+}
+
+.note__tools{
+    background-color: blue;
+    
+}
+
+.note__main{
+    width: 100%;
+    height: 90%;
+    background-color: aqua;
+}
+
+.note__textarea{
+    width: 100%;
+    height: 90%;
+    background-color: aquamarine;
+}
+
+.hidden{
+    display: none;
+}
