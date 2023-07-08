@@ -12,6 +12,8 @@ body{
 
 .notes__container{
     display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
     border:2px solid red;
 }
 .note__item{
@@ -40,4 +42,23 @@ body{
 
 .hidden{
     display: none;
+}
+
+.add{
+    position: fixed;
+    right:10px;
+    top:10px;
+    padding:10px;
+    margin:0;
+    border:none;
+
+}
+
+.add:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.add:focus{
+    outline: none;
 }
